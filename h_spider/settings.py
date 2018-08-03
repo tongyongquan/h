@@ -64,10 +64,10 @@ ROBOTSTXT_OBEY = False
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'h_spider.pipelines.HSpiderPipeline': 300,
-    'h_spider.pipelines.MongoPipeline': 100,
+    'h_spider.pipelines.pypi_pipeline.MongoPipeline': 100,
 }
 
+LOG_LEVEL = 'DEBUG'
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
 # AUTOTHROTTLE_ENABLED = True

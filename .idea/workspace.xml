@@ -2,10 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ef89f89-516b-4389-8085-81dac13fbec8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/h_spider/h_spider/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/h_spider/h_spider/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/h_spider/h_spider/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/h_spider/h_spider/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/h_spider/h_spider/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/h_spider/h_spider/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/h_spider/h_spider/spiders/pypi_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/h_spider/h_spider/spiders/pypi_spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h_spider/items/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h_spider/items/pypi_item.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h_spider/pipelines/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h_spider/pipelines/pypi_pipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/h_spider/h_spider/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/h_spider/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/h_spider/h_spider/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/h_spider/h_spider/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/h_spider/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/h_spider/h_spider/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/h_spider/h_spider/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/h_spider/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/h_spider/h_spider/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/h_spider/h_spider/spiders/pypi_spider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/h_spider/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcrypt/dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/utils/testcrypt/dictionary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcrypt/passwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/utils/testcrypt/passwords.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcrypt/testcrypt.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/testcrypt/testcrypt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testpexpect/testpexpect.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/testpexpect/testpexpect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testsocket/testsocket.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testsocket/vuln_banners.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testzip/dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/utils/testzip/dictionary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testzip/testzip.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/testzip/testzip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testzip/unzip.zip" beforeDir="false" afterPath="$PROJECT_DIR$/utils/testzip/unzip.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testzip/unzip/111.txt" beforeDir="false" afterPath="$PROJECT_DIR$/utils/testzip/unzip/111.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,66 +36,96 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/h$run.coverage" NAME="run Coverage Results" MODIFIED="1533264008595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/h_spider/h_spider/pipelines.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/h_spider/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/h_spider/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="48" column="57" lean-forward="true" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
+            <state relative-caret-position="209">
+              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="middlewares.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/h_spider/middlewares.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="scrapy.cfg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy.cfg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/h_spider/spiders/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
-                <element signature="e#193#204#0" expanded="true" />
+                <element signature="e#29#70#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/h_spider/h_spider/settings.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/importlib/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/h_spider/h_spider/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/h_spider/h_spider/items.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+            <state relative-caret-position="2356">
+              <caret line="125" selection-start-line="125" selection-end-line="125" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pypi_spider.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/h_spider/h_spider/spiders/pypi_spider.py">
+        <entry file="file://$PROJECT_DIR$/h_spider/spiders/pypi_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="56" column="83" selection-start-line="56" selection-start-column="83" selection-end-line="56" selection-end-column="83" />
-              <folding>
-                <element signature="e#24#37#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="171">
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scrapy.cfg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/h_spider/scrapy.cfg">
+      <file leaf-file-name="pypi_pipeline.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/h_spider/pipelines/pypi_pipeline.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
+      <file leaf-file-name="pypi_item.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/h_spider/items/pypi_item.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -84,7 +136,18 @@
         <option value="$PROJECT_DIR$/h_spider/h_spider/items.py" />
         <option value="$PROJECT_DIR$/h_spider/h_spider/spiders/pypi_spider.py" />
         <option value="$PROJECT_DIR$/h_spider/h_spider/pipelines.py" />
+        <option value="$PROJECT_DIR$/h_spider/pipelines/pipelines.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/h_spider/spiders/pypi_spider.py" />
+        <option value="$PROJECT_DIR$/h_spiders/h_spider/spiders/pypi_spider.py" />
+        <option value="$PROJECT_DIR$/h_spider/h_spider/run.py" />
         <option value="$PROJECT_DIR$/h_spider/h_spider/settings.py" />
+        <option value="$PROJECT_DIR$/hspider/hspider/spiders/pypi_spider.py" />
+        <option value="$PROJECT_DIR$/h_spider/h_spid/settings.py" />
+        <option value="$PROJECT_DIR$/h_spider/settings.py" />
+        <option value="$PROJECT_DIR$/scrapy.cfg" />
+        <option value="$PROJECT_DIR$/h_spider/items/pypi_item.py" />
+        <option value="$PROJECT_DIR$/h_spider/pipelines/pypi_pipeline.py" />
       </list>
     </option>
   </component>
@@ -97,11 +160,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="258" />
-    <option name="y" value="131" />
-    <option name="width" value="1339" />
-    <option name="height" value="852" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="499" />
+    <option name="y" value="76" />
+    <option name="width" value="1146" />
+    <option name="height" value="929" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -124,14 +187,18 @@
               <item name="h" type="b2602c69:ProjectViewProjectNode" />
               <item name="h" type="462c0819:PsiDirectoryNode" />
               <item name="h_spider" type="462c0819:PsiDirectoryNode" />
-              <item name="h_spider" type="462c0819:PsiDirectoryNode" />
+              <item name="pipelines" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="h" type="b2602c69:ProjectViewProjectNode" />
               <item name="h" type="462c0819:PsiDirectoryNode" />
               <item name="h_spider" type="462c0819:PsiDirectoryNode" />
-              <item name="h_spider" type="462c0819:PsiDirectoryNode" />
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="h" type="b2602c69:ProjectViewProjectNode" />
+              <item name="h" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="h" type="b2602c69:ProjectViewProjectNode" />
@@ -149,6 +216,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\h" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\h" />
+      <recent name="F:\h\h_spider\h_spider\spiders" />
+      <recent name="F:\h\h_spider" />
+      <recent name="F:\h\hspider\hspider\spiders" />
+      <recent name="F:\h\hspider\hspider\pipelines" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -161,6 +241,32 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="h" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="F:\h\run.py" />
+      <option name="PARAMETERS" value="pypi_spider" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -185,29 +291,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="258" y="131" width="1339" height="852" extended-state="0" />
+    <frame x="499" y="76" width="1146" height="929" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32972324" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.26928473" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4403927" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.32838154" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.53502417" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32971016" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.378481" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.41436464" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32971016" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,64 +324,173 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/h_spider/h_spider/pipelines.py">
+    <entry file="file://$PROJECT_DIR$/h_spider/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+        <state relative-caret-position="1349">
+          <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <element signature="e#193#204#0" expanded="true" />
+            <element signature="e#29#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/h_spider/h_spider/settings.py">
+    <entry file="file://$PROJECT_DIR$/h_spider/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_spider/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/importlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2356">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_spider/pipelines/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_spider/spiders/pypi_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_spider/pipelines/pypi_pipeline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_spider/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_spider/items/pypi_item.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_spider/spiders/pypi_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="56" column="83" selection-start-line="56" selection-start-column="83" selection-end-line="56" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_spider/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_spider/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_spider/pipelines/pypi_pipeline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="48" column="57" lean-forward="true" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_spider/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_spider/items/pypi_item.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_spider/spiders/pypi_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="56" column="83" selection-start-line="56" selection-start-column="83" selection-end-line="56" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_spider/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_spider/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_spider/pipelines/pypi_pipeline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_spider/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1938">
           <caret line="102" column="24" lean-forward="true" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/h_spider/h_spider/middlewares.py">
+    <entry file="file://$PROJECT_DIR$/h_spider/middlewares.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/h_spider/h_spider/items.py">
+    <entry file="file://$PROJECT_DIR$/h_spider/items/pypi_item.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/h_spider/h_spider/spiders/pypi_spider.py">
+    <entry file="file://$PROJECT_DIR$/h_spider/spiders/pypi_spider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/h_spider/h_spider/spiders/pypi_spider.py">
+    <entry file="file://$PROJECT_DIR$/h_spider/spiders/pypi_spider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
           <caret line="59" column="41" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/h_spider/h_spider/items.py">
+    <entry file="file://$PROJECT_DIR$/h_spider/items/pypi_item.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcrypt/dictionary.txt">
+    <entry file="file://$PROJECT_DIR$/utils/testcrypt/dictionary.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcrypt/passwords.txt">
+    <entry file="file://$PROJECT_DIR$/utils/testcrypt/passwords.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://F:/myscrapy/venv/Lib/site-packages/translate_api/translate_api.py">
@@ -290,52 +506,222 @@
     <entry file="file://F:/myscrapy/venv/Lib/site-packages/translate_api/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/h_spider/scrapy.cfg">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/h_spider/h_spider/spiders/pypi_spider.py">
+    <entry file="file://F:/myscrapy/venv/Lib/site-packages/pymongo/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="56" column="83" selection-start-line="56" selection-start-column="83" selection-end-line="56" selection-end-column="83" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-912" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/h_spider/h_spider/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/h_spider/h_spider/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        <state relative-caret-position="304">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/h_spider/h_spider/pipelines.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_spider/pipelines/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/importlib/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="48" column="57" lean-forward="true" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
+        <state relative-caret-position="2356">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_spider/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://Python/#F:/h/h_spider">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#F:/h/h_spider</OriginalElement>
+          <nodes>
+            <node x="0.0" y="475.0">typing.Container</node>
+            <node x="283.0" y="475.0">typing.Sized</node>
+            <node x="424.625" y="80.0">scrapy.utils.trackref.object_ref</node>
+            <node x="177.5" y="80.0">typing.Mapping</node>
+            <node x="153.5" y="160.0">typing.MutableMapping</node>
+            <node x="138.5" y="555.0">typing._Collection</node>
+            <node x="648.625" y="80.0">h_spider.middlewares.HSpiderDownloaderMiddleware</node>
+            <node x="962.125" y="0.0">object</node>
+            <node x="106.47499999999991" y="400.0">h_spider.items.pypi_item.HSpiderItem</node>
+            <node x="256.75" y="240.0">scrapy.item.DictItem</node>
+            <node x="167.4749999999999" y="320.0">scrapy.item.Item</node>
+            <node x="536.125" y="160.0">scrapy.spiders.Spider</node>
+            <node x="345.5" y="160.0">scrapy.item.BaseItem</node>
+            <node x="1016.625" y="80.0">h_spider.pipelines.pypi_pipeline.MongoPipeline</node>
+            <node x="464.625" y="240.0">h_spider.spiders.pypi_spider.PypiSpiderSpider</node>
+            <node x="0.0" y="240.0">scrapy.item.ItemMeta</node>
+            <node x="1342.625" y="80.0">h_spider.middlewares.HSpiderSpiderMiddleware</node>
+            <node x="23.5" y="160.0">abc.ABCMeta</node>
+            <node x="147.0" y="475.0">typing.Iterable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="typing._Collection" target="typing.Container">
+              <point x="-44.33333333333334" y="-15.0" />
+              <point x="160.66666666666666" y="530.0" />
+              <point x="63.5" y="530.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="scrapy.utils.trackref.object_ref" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="526.625" y="50.0" />
+              <point x="970.625" y="50.0" />
+              <point x="-25.5" y="15.0" />
+            </edge>
+            <edge source="typing.MutableMapping" target="typing.Mapping">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="h_spider.pipelines.pypi_pipeline.MongoPipeline" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="1169.625" y="60.0" />
+              <point x="1004.625" y="60.0" />
+              <point x="8.5" y="15.0" />
+            </edge>
+            <edge source="typing._Collection" target="typing.Sized">
+              <point x="44.33333333333334" y="-15.0" />
+              <point x="249.33333333333334" y="530.0" />
+              <point x="334.0" y="530.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="h_spider.middlewares.HSpiderDownloaderMiddleware" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="822.625" y="60.0" />
+              <point x="987.625" y="60.0" />
+              <point x="-8.5" y="15.0" />
+            </edge>
+            <edge source="scrapy.item.ItemMeta" target="abc.ABCMeta">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="scrapy.item.Item" target="scrapy.item.ItemMeta">
+              <point x="-31.75" y="-15.0" />
+              <point x="199.2249999999999" y="295.0" />
+              <point x="78.5" y="295.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="h_spider.middlewares.HSpiderSpiderMiddleware" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="1500.125" y="50.0" />
+              <point x="1021.625" y="50.0" />
+              <point x="25.5" y="15.0" />
+            </edge>
+            <edge source="h_spider.spiders.pypi_spider.PypiSpiderSpider" target="scrapy.spiders.Spider">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="h_spider.items.pypi_item.HSpiderItem" target="scrapy.item.Item">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="scrapy.item.BaseItem" target="scrapy.utils.trackref.object_ref">
+              <point x="0.0" y="-15.0" />
+              <point x="423.0" y="135.0" />
+              <point x="475.625" y="135.0" />
+              <point x="-51.0" y="15.0" />
+            </edge>
+            <edge source="scrapy.item.Item" target="scrapy.item.DictItem">
+              <point x="31.75" y="-15.0" />
+              <point x="262.7249999999999" y="295.0" />
+              <point x="331.25" y="295.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="scrapy.spiders.Spider" target="scrapy.utils.trackref.object_ref">
+              <point x="0.0" y="-15.0" />
+              <point x="614.625" y="135.0" />
+              <point x="577.625" y="135.0" />
+              <point x="51.0" y="15.0" />
+            </edge>
+            <edge source="scrapy.item.DictItem" target="scrapy.item.BaseItem">
+              <point x="37.25" y="-15.0" />
+              <point x="368.5" y="215.0" />
+              <point x="423.0" y="215.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="typing._Collection" target="typing.Iterable">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="scrapy.item.DictItem" target="typing.MutableMapping">
+              <point x="-37.25" y="-15.0" />
+              <point x="294.0" y="215.0" />
+              <point x="239.5" y="215.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9266984505363527" x="239.0" y="240.0" />
+          <SelectedNodes>
+            <node>h_spider.spiders.pypi_spider.PypiSpiderSpider</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_spider/pipelines/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_spider/settings.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_spider/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_spider/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <element signature="e#193#204#0" expanded="true" />
+            <element signature="e#29#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/h_spider/h_spider/settings.py">
+    <entry file="file://$PROJECT_DIR$/h_spider/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/h_spider/h_spider/__init__.py">
+    <entry file="file://$PROJECT_DIR$/h_spider/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_spider/items/pypi_item.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_spider/spiders/pypi_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_spider/pipelines/pypi_pipeline.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>

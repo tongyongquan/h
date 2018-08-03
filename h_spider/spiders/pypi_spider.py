@@ -7,7 +7,8 @@ import dateparser
 from scrapy import Request
 from scrapy.utils.request import request_fingerprint
 from urllib.parse import urlparse
-from ..items import HSpiderItem
+from h_spider.items.pypi_item import HSpiderItem
+
 
 class PypiSpiderSpider(scrapy.Spider):
     name = 'pypi_spider'
