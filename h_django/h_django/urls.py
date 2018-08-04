@@ -20,4 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('login.urls')),
     path('captcha', include('captcha.urls')),
+    path(r'^oauth/', include('social_django.urls', namespace='social')),  # <--
+
 ]

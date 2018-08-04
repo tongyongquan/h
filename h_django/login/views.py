@@ -4,7 +4,7 @@ from . import models
 import hashlib
 from .forms import UserForm, RegisterForm
 
-
+# https://simpleisbetterthancomplex.com/tutorial/2016/10/24/how-to-add-social-login-to-django.html
 def index(request):
     if request.method == 'GET':
         return render(request, 'index.html')

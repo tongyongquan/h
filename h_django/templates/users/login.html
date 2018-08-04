@@ -24,15 +24,19 @@
                     {{ login_form.password.label_tag }}
                     {{ login_form.password }}
                 </div>
-
                 {#              <div class="form-group">#}
                 {#                  {{ login_form.captcha.errors }}#}
                 {#                  {{ login_form.captcha.label_tag }}#}
                 {#                  {{ login_form.captcha }}#}
                 {#              </div>#}
-
-                <button type="reset" class="btn btn-default pull-left">重置</button>
-                <button type="submit" class="btn btn-primary pull-right">提交</button>
+                <div class="form-group" style="overflow: hidden">
+                    <button type="reset" class="btn btn-default pull-left">重置</button>
+                    <button type="submit" class="btn btn-primary pull-right">提交</button>
+                </div>
+                <div class="form-group">
+                    <p><strong>-- OR --</strong></p>
+                    <a href="{% url 'social:begin' 'github' %}">Login with GitHub</a><br>
+                </div>
 
             </form>
         </div>
